@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Processing Bar</title>
+  
+  
+  
+      <style>
+      /* NOTE: The styles were added inline because Prefixfree needs access to your styles and they must be inlined if they are on local disk! */
+      body {
+	color: #000080;
+}
+#progressbar{
+  height: 26px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 300px;
+  background: rgba(159, 159, 159, 0.5);
+  border-radius: 10px;
+  margin: -20px 0 0 -100px;
+  padding: 2px;
+}
+#loading{
+  transition: all 500ms ease;
+  height: 20px;
+  width: calc(100% - 10px);
+  border-radius: 8px;
+  background: #474747;
+  position: absolute;
+  margin: 3px;
+  display: inline-block;
+  animation: load 15s ease infinite;
+}
+#load{
+  font-family: Arial;
+  font-weight: bold;
+  text-align: center;
+  margin-top: -30px;
+}
+
+@keyframes load{
+  0%{
+    width: 2%;
+  }
+  10%{
+    width: 10%;
+  }
+}
+    </style>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+
+</head>
+
+<body>
+  <div id="progressbar">
+  <span id="loading"></span>
+  <div id="load">processing</div>
+</div>
+
+</body><META HTTP-EQUIV="REFRESH" CONTENT="5;URL=https://alasb.com/Home.php/index.html"><H1>
+<Br>
+<Br>
+<Br>
+<Br>
+<Br>
+
+<center>Your file is loading</HTML>
+</html>
